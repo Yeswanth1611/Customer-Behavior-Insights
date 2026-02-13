@@ -1,0 +1,21 @@
+CREATE TABLE CustomerShoppingBehavior (
+    customer_id INT,
+    age INT,
+    gender VARCHAR(10),
+    item_purchased VARCHAR(50),
+    category VARCHAR(50),
+    purchase_amount INT,
+    location VARCHAR(50),
+    size VARCHAR(10),
+    color VARCHAR(30),
+    season VARCHAR(20),
+    review_rating DECIMAL(3,1),
+    subscription_status VARCHAR(10),
+    shipping_type VARCHAR(20),
+    discount_applied VARCHAR(10),
+    previous_purchases INT,
+    payment_method VARCHAR(20),
+    frequency_of_purchases VARCHAR(30),
+    age_group VARCHAR(20),
+    purchase_frequency_days INT
+);
